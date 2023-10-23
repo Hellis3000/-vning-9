@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Övning 8</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+</head>
+
+<body>
+
+    <header class="container-fluid text-center justify-content-center border-bottom">
+        <p class="h2">To do List</p>
+    </header>
+
+    <div class="container-fluid justify-content-center w-50  text-center p-5 ">
+
+        <label>Task: <input type="text" id="inputList" placeholder="Task">
+            <button id="submit" type="button">Submit Task</button>
+    </div>
+    <div class="container-fluid justify-content-center text-right p-5 w-50">
+        <ul class="bg-primary-subtle " id="toDoList"></ul>
+       
+    </div>
+    <div class=" w-50 container-sm justify-content-center text-center p-3 card">
+        
+    <button id="deleteChecked">Delete Checked</button>
+       
+    </div>
+    <footer class="border-bottom fixed-bottom footer_style ">
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05)">
+            <p>© 2023 Copyright, Webmaster: Erik Lagnefeldt</p>
+        </div>
+    </footer>
+
+</body>
+
+<script type="text/javascript" src="script.js"></script>
+
+</html>

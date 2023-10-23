@@ -1,0 +1,29 @@
+.header_style{
+
+
+     color: azure;
+     background-color: rgb(47, 126, 186);
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+
+}
+
+.footer_style{
+
+    color: azure;
+    background-color: rgb(47, 126, 186);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.div_style{
+    
+background-color: aquamarine;
+}
+
+body{
+
+margin: 0%;
+
+}

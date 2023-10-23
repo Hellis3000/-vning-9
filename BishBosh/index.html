@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Övning 8</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <header class="modal-header text-center header_style p-4">
+      <p class="font-weight-bold h3">BishBosh2.0</p>
+    </header>
+
+    <div class="div_style text-center p-4 h5  d-flex flex-column justify-content-between mb-0">
+      <p>
+        Welcome to the amazing Bish Bosh number calculator. Here you will enter
+        2 different numbers that will figure which other numbers are either
+        Bish, Bosh or Bishosh. Our state of the art number algorythm will then
+        find out if the the number you put in, is diviseble by bosh, bish or
+        both!
+      </p>
+    </div>
+    <div class="text-center p-5 mt-0 container-fluid div_style d-flex flex-column justify-content-between" style="min-height: 100vh">
+      <form>
+        <div>
+          <label class="text-center m-4 font-weight-bold ">Bish: </label
+          ><input
+            type="text"
+            id="bishNr"
+            placeholder="Type a number for bish"
+          />
+
+          <label class="text-center m-4 font-weight-bold">Bosh:</label>
+          <input type="text" id="boshNr" placeholder="Type a number for bosh" />
+
+          <label class="text-center m-4 font-weight-bold"
+            >Checking Number:</label
+          >
+          <input type="text" id="input" placeholder="Type a number" />
+        </div>
+        <div>
+          <button
+            type="button"
+            class="btn btn-info text-center m-4 font-weight-bold"
+            id="button"
+          >
+            CALCULATE
+          </button>
+          <p class="h5" id="result">Its currently nothing</p>
+        </div>
+      </form>
+
+    </div>
+
+    <footer class="border-bottom fixed-bottom footer_style">
+      <div
+        class="text-center p-4"
+        style="background-color: rgba(0, 0, 0, 0.05)"
+      >
+        <p>© 2023 Copyright, Webmaster: Erik Lagnefeldt</p>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="BishBosh.js"></script>
+  </body>
+</html>
