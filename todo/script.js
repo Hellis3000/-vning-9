@@ -5,9 +5,14 @@ var todos = [];
 
 function toDo() {
     var newListObj = document.getElementById('inputList').value;
+
+    if(newListObj == null || newListObj == "" ) {
+
+    }
+    else {
     todos.push(newListObj); 
     document.getElementById('inputList').value = '';
-    printTodos(); 
+    printTodos(); }
     
 }
 
@@ -24,6 +29,7 @@ function finItem() {
 function printTodos() {
     var toDoList = document.getElementById('toDoList');
     toDoList.innerHTML = '';
+
 
     for (var i = 0; i < todos.length; i++) {
         var li = document.createElement('li');
